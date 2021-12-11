@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lab Question No 1</title>
+</head>
+<body>
+ <form>
+ 	<label for="fname">Name :</label><br>
+ 	<input type="text" id="fname" name="fname" placeholder="Name" required="" size="25"><br>
+ 	<label for="email">Email ID :</label><br>
+ 	<input type="text" id="email" name="email" value="test@example.com" autofocus="" required=""><br>
+ 	<label for="passwd">Password :</label><br>
+ 	<input type="Password" id="passwd" name="passwd" required="" minlength="6"><br>
+    <label for="Category">Choose a Category:</label><br>
+    <select id="Category" name="Category" required="">
+     <option value="student">Student</option>
+     <option value="employee">Employee</option>
+     <option value="freelancer" selected="">Freelancer</option>
+   </select>
+   <br>
+   <label for="eventdate">Event Date</label><br>
+   <input type="date" name="evntdate" required=""><br>
+   <input type="radio" name="tkts" value="1 ticket">1 Ticket
+   <input type="radio" name="tkts" value="2 tickets" checked="">2 Tickets
+   <input type="radio" name="tkts" value="3 tickets">3 Tickets <br>
+   <input type="radio" name="online" value="onlinepayment">Online Payment <br>
+   <textarea rows = "5" cols = "50" name = "Notes" placeholder="Notes"></textarea><br>
+   <input type = "submit" value = "Submit" />
+ </form>
+</body>
+</html>
