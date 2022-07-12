@@ -1,0 +1,2 @@
+welcome to mashupstack.
+This is a test file used to open and read a file.
