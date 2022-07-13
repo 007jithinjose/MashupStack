@@ -1,0 +1,6 @@
+f = open("test.txt", "a")
+app=input("Enter text to append to file")
+f.write(app)
+f.close()
+f = open("test.txt", "r")
+print(f.read())
